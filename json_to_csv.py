@@ -27,5 +27,5 @@ for x in data:
                 x["ref_locked"],
                 x["rx_freq"][1],
                 x["rx_rate"][1],
-                x["rx_time"][1],
+                x["rx_time"][1][0]+x["rx_time"][1][1],
                 x["temp"]])
